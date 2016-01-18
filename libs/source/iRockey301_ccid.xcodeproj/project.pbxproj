@@ -44,34 +44,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		335C019E16773A3700ABE095 /* DES_C.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = DES_C.c; path = src/DES_C.c; sourceTree = "<group>"; };
-		335C019F16773A3700ABE095 /* DES_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DES_C.h; path = src/DES_C.h; sourceTree = "<group>"; };
-		3374951B16F9D2E800445C6F /* atr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = atr.c; path = src/atr.c; sourceTree = "<group>"; };
-		33CC95DA172BC8460007B3BD /* ReaderInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderInterface.m; path = src/ReaderInterface.m; sourceTree = "<group>"; };
-		33ED710E172CCF6B00268F11 /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aes.c; path = src/aes.c; sourceTree = "<group>"; };
-		33ED710F172CCF6B00268F11 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aes.h; path = src/aes.h; sourceTree = "<group>"; };
-		33ED7112172CCF9100268F11 /* crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crypto.c; path = src/crypto.c; sourceTree = "<group>"; };
-		33ED7113172CCF9200268F11 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = src/crypto.h; sourceTree = "<group>"; };
-		5207A28615E333E300C156DF /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = src/buffer.h; sourceTree = "<group>"; };
-		5207A28715E333E300C156DF /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = src/buffer.c; sourceTree = "<group>"; };
-		5207A28815E333E300C156DF /* checksum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checksum.h; path = src/checksum.h; sourceTree = "<group>"; };
-		5207A28915E333E300C156DF /* checksum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = checksum.c; path = src/checksum.c; sourceTree = "<group>"; };
-		5207A28A15E333E300C156DF /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = debug.c; path = src/debug.c; sourceTree = "<group>"; };
-		5207A28D15E333E300C156DF /* ft_ccid_cmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ft_ccid_cmd.m; path = src/ft_ccid_cmd.m; sourceTree = "<group>"; };
-		5207A28E15E333E300C156DF /* ft_ccid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ft_ccid.h; path = src/ft_ccid.h; sourceTree = "<group>"; };
-		5207A28F15E333E300C156DF /* pps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pps.c; path = src/pps.c; sourceTree = "<group>"; };
-		5207A29015E333E300C156DF /* proto-t1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "proto-t1.h"; path = "src/proto-t1.h"; sourceTree = "<group>"; };
-		5207A29115E333E300C156DF /* proto-t1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "proto-t1.c"; path = "src/proto-t1.c"; sourceTree = "<group>"; };
-		5207A29215E333E300C156DF /* winscard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = winscard.m; path = src/winscard.m; sourceTree = "<group>"; };
+		0F81EA8C1C4CE19100D95275 /* libiRockey301_ccid.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libiRockey301_ccid.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		335C019E16773A3700ABE095 /* DES_C.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DES_C.c; sourceTree = "<group>"; };
+		335C019F16773A3700ABE095 /* DES_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES_C.h; sourceTree = "<group>"; };
+		3374951B16F9D2E800445C6F /* atr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = atr.c; sourceTree = "<group>"; };
+		33CC95DA172BC8460007B3BD /* ReaderInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderInterface.m; sourceTree = "<group>"; };
+		33ED710E172CCF6B00268F11 /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		33ED710F172CCF6B00268F11 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		33ED7112172CCF9100268F11 /* crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
+		33ED7113172CCF9200268F11 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		5207A28615E333E300C156DF /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		5207A28715E333E300C156DF /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		5207A28815E333E300C156DF /* checksum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checksum.h; sourceTree = "<group>"; };
+		5207A28915E333E300C156DF /* checksum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = checksum.c; sourceTree = "<group>"; };
+		5207A28A15E333E300C156DF /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		5207A28D15E333E300C156DF /* ft_ccid_cmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ft_ccid_cmd.m; sourceTree = "<group>"; };
+		5207A28E15E333E300C156DF /* ft_ccid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ft_ccid.h; sourceTree = "<group>"; };
+		5207A28F15E333E300C156DF /* pps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pps.c; sourceTree = "<group>"; };
+		5207A29015E333E300C156DF /* proto-t1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "proto-t1.h"; sourceTree = "<group>"; };
+		5207A29115E333E300C156DF /* proto-t1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "proto-t1.c"; sourceTree = "<group>"; };
+		5207A29215E333E300C156DF /* winscard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = winscard.m; sourceTree = "<group>"; };
 		5207A2A315E3348700C156DF /* iRockey301_ccid-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iRockey301_ccid-Prefix.pch"; sourceTree = "<group>"; };
 		52263B291573846500CE4DCC /* libiRockey301_ccid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiRockey301_ccid.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		52263B2C1573846500CE4DCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B5132B1A1BB9394600665BCD /* ft301u.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ft301u.h; path = src/ft301u.h; sourceTree = "<group>"; };
-		B5132B1B1BB9394600665BCD /* winscard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = winscard.h; path = src/winscard.h; sourceTree = "<group>"; };
-		B5132B1C1BB9394600665BCD /* wintypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wintypes.h; path = src/wintypes.h; sourceTree = "<group>"; };
-		B5B8750D1C295A1E00F9B057 /* bR301SessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bR301SessionController.h; path = ../../../bR301_iOS_/libs/source/src/bR301SessionController.h; sourceTree = "<group>"; };
-		B5B8750F1C29615800F9B057 /* libFTSessionController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFTSessionController.a; path = src/libFTSessionController.a; sourceTree = "<group>"; };
-		B5F2344A1BB92BBA00C0B7CD /* ReaderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderInterface.h; path = src/ReaderInterface.h; sourceTree = "<group>"; };
+		B5132B1A1BB9394600665BCD /* ft301u.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ft301u.h; sourceTree = "<group>"; };
+		B5132B1B1BB9394600665BCD /* winscard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winscard.h; sourceTree = "<group>"; };
+		B5132B1C1BB9394600665BCD /* wintypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wintypes.h; sourceTree = "<group>"; };
+		B5B8750D1C295A1E00F9B057 /* bR301SessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bR301SessionController.h; sourceTree = "<group>"; };
+		B5B8750F1C29615800F9B057 /* libFTSessionController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFTSessionController.a; sourceTree = "<group>"; };
+		B5F2344A1BB92BBA00C0B7CD /* ReaderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderInterface.h; sourceTree = "<group>"; };
 		D32B61441935BAA800FC89B3 /* ft301u.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ft301u.h; sourceTree = "<group>"; };
 		D32B61451935BAA800FC89B3 /* ReaderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderInterface.h; sourceTree = "<group>"; };
 		D32B61461935BAA800FC89B3 /* winscard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winscard.h; sourceTree = "<group>"; };
@@ -126,7 +127,7 @@
 				5207A28D15E333E300C156DF /* ft_ccid_cmd.m */,
 				B5B8750F1C29615800F9B057 /* libFTSessionController.a */,
 			);
-			name = src;
+			path = src;
 			sourceTree = "<group>";
 		};
 		52263B1E1573846500CE4DCC = {
