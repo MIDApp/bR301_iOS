@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F81EA901C4CE64400D95275 /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 33ED7112172CCF9100268F11 /* crypto.c */; };
+		0F81EA911C4CE64400D95275 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 33ED710E172CCF6B00268F11 /* aes.c */; };
+		0F81EA921C4CE64400D95275 /* atr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3374951B16F9D2E800445C6F /* atr.c */; };
+		0F81EA931C4CE64400D95275 /* DES_C.c in Sources */ = {isa = PBXBuildFile; fileRef = 335C019E16773A3700ABE095 /* DES_C.c */; };
+		0F81EA941C4CE64400D95275 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5207A28715E333E300C156DF /* buffer.c */; };
+		0F81EA951C4CE64400D95275 /* checksum.c in Sources */ = {isa = PBXBuildFile; fileRef = 5207A28915E333E300C156DF /* checksum.c */; };
+		0F81EA961C4CE64400D95275 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 5207A28A15E333E300C156DF /* debug.c */; };
+		0F81EA971C4CE64400D95275 /* pps.c in Sources */ = {isa = PBXBuildFile; fileRef = 5207A28F15E333E300C156DF /* pps.c */; };
+		0F81EA981C4CE64400D95275 /* proto-t1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5207A29115E333E300C156DF /* proto-t1.c */; };
+		0F81EA991C4CE64400D95275 /* winscard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207A29215E333E300C156DF /* winscard.m */; };
+		0F81EA9A1C4CE64400D95275 /* ReaderInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC95DA172BC8460007B3BD /* ReaderInterface.m */; };
+		0F81EA9B1C4CE64400D95275 /* ft_ccid_cmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207A28D15E333E300C156DF /* ft_ccid_cmd.m */; };
+		0F81EA9C1C4CE65D00D95275 /* libFTSessionController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B8750F1C29615800F9B057 /* libFTSessionController.a */; };
+		0F81EA9D1C4CE66300D95275 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33D1ECF18EA8E2A0041D55E /* ExternalAccessory.framework */; };
+		0F81EA9E1C4CE66300D95275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33D1ECD18EA8DE80041D55E /* UIKit.framework */; };
+		0F81EA9F1C4CE66300D95275 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37003DE18BC6520005CD978 /* CoreFoundation.framework */; };
+		0F81EAA01C4CE66300D95275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52263B2C1573846500CE4DCC /* Foundation.framework */; };
+		0F81EAA11C4CE67B00D95275 /* ft301u.h in Headers */ = {isa = PBXBuildFile; fileRef = B5132B1A1BB9394600665BCD /* ft301u.h */; };
+		0F81EAA21C4CE67B00D95275 /* winscard.h in Headers */ = {isa = PBXBuildFile; fileRef = B5132B1B1BB9394600665BCD /* winscard.h */; };
+		0F81EAA31C4CE67B00D95275 /* wintypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B5132B1C1BB9394600665BCD /* wintypes.h */; };
+		0F81EAA41C4CE67B00D95275 /* ReaderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F2344A1BB92BBA00C0B7CD /* ReaderInterface.h */; };
+		0F81EAA51C4CE67B00D95275 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 33ED7113172CCF9200268F11 /* crypto.h */; };
+		0F81EAA61C4CE67B00D95275 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 33ED710F172CCF6B00268F11 /* aes.h */; };
+		0F81EAA71C4CE67B00D95275 /* DES_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 335C019F16773A3700ABE095 /* DES_C.h */; };
+		0F81EAA81C4CE67B00D95275 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5207A28615E333E300C156DF /* buffer.h */; };
+		0F81EAA91C4CE67B00D95275 /* checksum.h in Headers */ = {isa = PBXBuildFile; fileRef = 5207A28815E333E300C156DF /* checksum.h */; };
+		0F81EAAA1C4CE67B00D95275 /* bR301SessionController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B8750D1C295A1E00F9B057 /* bR301SessionController.h */; };
+		0F81EAAB1C4CE67B00D95275 /* ft_ccid.h in Headers */ = {isa = PBXBuildFile; fileRef = 5207A28E15E333E300C156DF /* ft_ccid.h */; };
+		0F81EAAC1C4CE67B00D95275 /* proto-t1.h in Headers */ = {isa = PBXBuildFile; fileRef = 5207A29015E333E300C156DF /* proto-t1.h */; };
+		0F81EAAD1C4CE67B00D95275 /* iRockey301_ccid-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 5207A2A315E3348700C156DF /* iRockey301_ccid-Prefix.pch */; };
 		335C01A016773A3700ABE095 /* DES_C.c in Sources */ = {isa = PBXBuildFile; fileRef = 335C019E16773A3700ABE095 /* DES_C.c */; };
 		335C01A116773A3700ABE095 /* DES_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 335C019F16773A3700ABE095 /* DES_C.h */; };
 		3374951C16F9D2E800445C6F /* atr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3374951B16F9D2E800445C6F /* atr.c */; };
@@ -79,6 +109,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0F81EA891C4CE19100D95275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F81EAA01C4CE66300D95275 /* Foundation.framework in Frameworks */,
+				0F81EA9F1C4CE66300D95275 /* CoreFoundation.framework in Frameworks */,
+				0F81EA9D1C4CE66300D95275 /* ExternalAccessory.framework in Frameworks */,
+				0F81EA9E1C4CE66300D95275 /* UIKit.framework in Frameworks */,
+				0F81EA9C1C4CE65D00D95275 /* libFTSessionController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52263B261573846500CE4DCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				52263B291573846500CE4DCC /* libiRockey301_ccid.a */,
+				0F81EA8C1C4CE19100D95275 /* libiRockey301_ccid.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +239,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0F81EA8A1C4CE19100D95275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F81EAA11C4CE67B00D95275 /* ft301u.h in Headers */,
+				0F81EAA21C4CE67B00D95275 /* winscard.h in Headers */,
+				0F81EAA31C4CE67B00D95275 /* wintypes.h in Headers */,
+				0F81EAA41C4CE67B00D95275 /* ReaderInterface.h in Headers */,
+				0F81EAA51C4CE67B00D95275 /* crypto.h in Headers */,
+				0F81EAA61C4CE67B00D95275 /* aes.h in Headers */,
+				0F81EAA71C4CE67B00D95275 /* DES_C.h in Headers */,
+				0F81EAA81C4CE67B00D95275 /* buffer.h in Headers */,
+				0F81EAA91C4CE67B00D95275 /* checksum.h in Headers */,
+				0F81EAAA1C4CE67B00D95275 /* bR301SessionController.h in Headers */,
+				0F81EAAB1C4CE67B00D95275 /* ft_ccid.h in Headers */,
+				0F81EAAC1C4CE67B00D95275 /* proto-t1.h in Headers */,
+				0F81EAAD1C4CE67B00D95275 /* iRockey301_ccid-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52263B271573846500CE4DCC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +282,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0F81EA8B1C4CE19100D95275 /* iRockey301_ccid_dyn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F81EA8D1C4CE19100D95275 /* Build configuration list for PBXNativeTarget "iRockey301_ccid_dyn" */;
+			buildPhases = (
+				0F81EA881C4CE19100D95275 /* Sources */,
+				0F81EA891C4CE19100D95275 /* Frameworks */,
+				0F81EA8A1C4CE19100D95275 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRockey301_ccid_dyn;
+			productName = iRockey301_ccid_dyn;
+			productReference = 0F81EA8C1C4CE19100D95275 /* libiRockey301_ccid.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		52263B281573846500CE4DCC /* iRockey301_ccid */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52263B361573846500CE4DCC /* Build configuration list for PBXNativeTarget "iRockey301_ccid" */;
@@ -244,6 +324,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ftsafe;
+				TargetAttributes = {
+					0F81EA8B1C4CE19100D95275 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
 			};
 			buildConfigurationList = 52263B231573846500CE4DCC /* Build configuration list for PBXProject "iRockey301_ccid" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -258,11 +343,31 @@
 			projectRoot = "";
 			targets = (
 				52263B281573846500CE4DCC /* iRockey301_ccid */,
+				0F81EA8B1C4CE19100D95275 /* iRockey301_ccid_dyn */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F81EA881C4CE19100D95275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F81EA901C4CE64400D95275 /* crypto.c in Sources */,
+				0F81EA911C4CE64400D95275 /* aes.c in Sources */,
+				0F81EA921C4CE64400D95275 /* atr.c in Sources */,
+				0F81EA931C4CE64400D95275 /* DES_C.c in Sources */,
+				0F81EA941C4CE64400D95275 /* buffer.c in Sources */,
+				0F81EA951C4CE64400D95275 /* checksum.c in Sources */,
+				0F81EA961C4CE64400D95275 /* debug.c in Sources */,
+				0F81EA971C4CE64400D95275 /* pps.c in Sources */,
+				0F81EA981C4CE64400D95275 /* proto-t1.c in Sources */,
+				0F81EA991C4CE64400D95275 /* winscard.m in Sources */,
+				0F81EA9A1C4CE64400D95275 /* ReaderInterface.m in Sources */,
+				0F81EA9B1C4CE64400D95275 /* ft_ccid_cmd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52263B251573846500CE4DCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,6 +390,93 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0F81EA8E1C4CE19100D95275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../SDK/lib/$(CONFIGURATION)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1.3;
+				DYLIB_CURRENT_VERSION = 1.3.1;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/src",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = iRockey301_ccid;
+				SHARED_PRECOMPS_DIR = "$(SRCROOT)/../SDK/";
+			};
+			name = Debug;
+		};
+		0F81EA8F1C4CE19100D95275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../SDK/lib/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1.3;
+				DYLIB_CURRENT_VERSION = 1.3.1;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/src",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = iRockey301_ccid;
+				SHARED_PRECOMPS_DIR = "$(SRCROOT)/../SDK/";
+			};
+			name = Release;
+		};
 		52263B341573846500CE4DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -390,6 +582,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F81EA8D1C4CE19100D95275 /* Build configuration list for PBXNativeTarget "iRockey301_ccid_dyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F81EA8E1C4CE19100D95275 /* Debug */,
+				0F81EA8F1C4CE19100D95275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		52263B231573846500CE4DCC /* Build configuration list for PBXProject "iRockey301_ccid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
