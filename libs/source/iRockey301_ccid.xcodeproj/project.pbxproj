@@ -34,10 +34,6 @@
 		B5B8750E1C295A1E00F9B057 /* bR301SessionController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B8750D1C295A1E00F9B057 /* bR301SessionController.h */; };
 		B5B875101C29615800F9B057 /* libFTSessionController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B8750F1C29615800F9B057 /* libFTSessionController.a */; };
 		B5F2344B1BB92BBA00C0B7CD /* ReaderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F2344A1BB92BBA00C0B7CD /* ReaderInterface.h */; };
-		D32B614B1935BAA800FC89B3 /* ft301u.h in Headers */ = {isa = PBXBuildFile; fileRef = D32B61441935BAA800FC89B3 /* ft301u.h */; };
-		D32B614C1935BAA800FC89B3 /* ReaderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = D32B61451935BAA800FC89B3 /* ReaderInterface.h */; };
-		D32B614D1935BAA800FC89B3 /* winscard.h in Headers */ = {isa = PBXBuildFile; fileRef = D32B61461935BAA800FC89B3 /* winscard.h */; };
-		D32B614E1935BAA800FC89B3 /* wintypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D32B61471935BAA800FC89B3 /* wintypes.h */; };
 		D33D1ECE18EA8DE80041D55E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33D1ECD18EA8DE80041D55E /* UIKit.framework */; };
 		D33D1ED018EA8E2A0041D55E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33D1ECF18EA8E2A0041D55E /* ExternalAccessory.framework */; };
 		D37003DF18BC6521005CD978 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37003DE18BC6520005CD978 /* CoreFoundation.framework */; };
@@ -205,14 +201,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5207A29415E333E300C156DF /* buffer.h in Headers */,
-				D32B614C1935BAA800FC89B3 /* ReaderInterface.h in Headers */,
 				5207A29615E333E300C156DF /* checksum.h in Headers */,
-				D32B614E1935BAA800FC89B3 /* wintypes.h in Headers */,
 				B5132B1F1BB9394600665BCD /* wintypes.h in Headers */,
 				5207A29C15E333E300C156DF /* ft_ccid.h in Headers */,
 				5207A29E15E333E300C156DF /* proto-t1.h in Headers */,
-				D32B614B1935BAA800FC89B3 /* ft301u.h in Headers */,
-				D32B614D1935BAA800FC89B3 /* winscard.h in Headers */,
 				5207A2A415E3348700C156DF /* iRockey301_ccid-Prefix.pch in Headers */,
 				B5132B1D1BB9394600665BCD /* ft301u.h in Headers */,
 				B5132B1E1BB9394600665BCD /* winscard.h in Headers */,
