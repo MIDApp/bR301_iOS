@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f2bd46f9-d5bf-df83-982f-ce57b7db7bff++4023",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "36bff48c-493c-194d-a670-2f7818a010fc++6519" : {
+
+    },
+    "f2bd46f9-d5bf-df83-982f-ce57b7db7bff++4023" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "36bff48c-493c-194d-a670-2f7818a010fc++6519" : 0,
+    "f2bd46f9-d5bf-df83-982f-ce57b7db7bff++4023" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "823FFA48-1F09-43C2-B4E3-5F2B17BA2F4B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "36bff48c-493c-194d-a670-2f7818a010fc++6519" : "..",
+    "f2bd46f9-d5bf-df83-982f-ce57b7db7bff++4023" : "SDK\/include\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iRockey301_ccid",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iRockey301_ccid.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/MIDA%5cAlessio.Anesa@svn.mida.local:8443\/svn\/MidaMed",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "36bff48c-493c-194d-a670-2f7818a010fc++6519"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MIDApp\/bR301_iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f2bd46f9-d5bf-df83-982f-ce57b7db7bff++4023"
+    }
+  ]
+}
