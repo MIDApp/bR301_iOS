@@ -115,7 +115,8 @@ LONG SCardEstablishContext(DWORD dwScope, /*@unused@*/ LPCVOID pvReserved1,
 
     if ( SCARD_SCOPE_SYSTEM != dwScope )
     {
-        return SCARD_E_INVALID_VALUE;
+        //OpenSC calls this function with scope SCARD_SCOPE_USER, I found no reason to not allow a context with user scope
+//        return SCARD_E_INVALID_VALUE;
     }
     
     if (NULL == phContext) 
