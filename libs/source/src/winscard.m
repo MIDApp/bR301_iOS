@@ -803,7 +803,8 @@ LONG SCardGetStatusChange(SCARDCONTEXT hContext,
         return  SCARD_E_INVALID_PARAMETER;
     }
     
-    rv =  SCardStatus(NULL,NULL,NULL,&dwState,NULL,NULL,NULL);
+    rgReaderStates->cbAtr = MAX_ATR_SIZE;//SCCardStatus will reset this variable with the current ATR size
+    rv =  SCardStatus(NULL,NULL,NULL,&dwState,NULL,rgReaderStates->rgbAtr,&rgReaderStates->cbAtr);
     
     if(SCARD_S_SUCCESS != rv)
     {
